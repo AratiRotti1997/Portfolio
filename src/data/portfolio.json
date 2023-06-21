@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/TypeScript.png",
+            "title": "TypeScript Game",
+            "description": "Type Script game using ReactJS",
+            "url": "https://github.com/AratiRotti1997/game-app-typescript-main.git"
+        },
+        {
+            "cover": "/portfolio/ToDoList.png",
+            "title": "To Do List",
+            "description": "To Do List using ReactJS",
+            "url": "https://github.com/AratiRotti1997/React-TodoList-master.git"
+        },
+        {
+            "cover": "/portfolio/Tic Tac Toe.png",
+            "title": "Tic Tac Toe Game",
+            "description": "Tic Tac Toe Game using ReactJS",
+            "url": "https://github.com/AratiRotti1997/tic-tac-toe-react.git"
+        }
+    ]
+}

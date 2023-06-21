@@ -2,48 +2,49 @@
   .text-zone {
     position: relative;
     left: 8%;
-    top: 38%;
+    top: 30%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 50%;
     max-height: 100%;
   }
 
   h1 {
-    color: #fff;
-    font-size: 35px;
-    margin-top: 8px;
-    margin-left: 30px;
+    color: #cec7c7;
+    font-size: 45px;
+    margin-top: -40px;
+    margin-left: 20px;
     font-family: 'Coolvetica';
     font-weight: 400;
 
-    &::before {
+    &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: 18px;
+      font-size: 30px;
       position: absolute;
-      margin-top: -40px;
-      margin-left: 8px;
+      margin-top: -20px;
+      margin-left: -10px;
+      top: -20px;
       left: 15px;
       opacity: 0.6;
     }
 
-    &::after {
+    &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: 18px;
+      font-size: 30px;
       position: absolute;
-      margin-top: 0px;
-      margin-left: 0px;
+      margin-top: 20px;
+      margin-left: -10px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
 
     img {
-      width: 37px;
-      margin-left: 4px;
-      margin-top: 10px;
+      width: 44px;
+      margin-left: 10px;
+      margin-top: 16px;
       opacity: 0;
       height: auto;
       position: absolute;
@@ -54,10 +55,10 @@
   }
 
   h2 {
-    color: #8d8d8d;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 12px;
+    color: #a0a4a7;
+    margin-top: 80px;
+    font-weight: 600;
+    font-size: 20px;
     margin-left: 30px;
     font-family: sans-serif;
     letter-spacing: 3px;
@@ -83,5 +84,34 @@
       background: #ffd700;
       color: #333;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home-page {
+    position: initial;
+  }
+  
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    position: initial;
+    margin-left: 10px;
+    padding: 10px;
+    top: 100px;
+  }
+
+  .home-page .text-zone {
+    position: initial;
+    margin: 200px 10px 0 auto;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .home-page .flat-button {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 124px;
   }
 }

@@ -48,9 +48,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am looking for amazing opportunities to enhance my coding skills.
+            Please contact me if you have any requests, questions or suggestions
+            using form.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -87,25 +87,6 @@ const Contact = () => {
               </ul>
             </form>
           </div>
-        </div>
-        <div className='info-map'>
-            Arati Rotti,
-            <br />
-            India,
-            <br />
-            Madiwala 
-            <br />
-            Bengaluru
-            <br />
-            <span>aratirotti9@gmail.com</span>
-        </div>
-        <div className='map-wrap'>
-          <MapContainer center={[12.925, 77.6128]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[12.925, 77.6128]}>
-              <Popup>Arati lives here, come over for a cup of Tea/Coffee :)</Popup>
-            </Marker>
-            </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
